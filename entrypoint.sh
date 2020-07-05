@@ -1,6 +1,6 @@
-#!/bin/sh 
+#!/bin/sh
 
-cd "$GITHUB_WORKSPACE"
+cd "$GITHUB_WORKSPACE"||exit 1
 echo "start checking"
 #suggestion=$( ls *.md|xargs proselint )
 #suggestion="haha"
