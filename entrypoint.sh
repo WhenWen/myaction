@@ -1,4 +1,4 @@
-#!/bin/sh -Copyright (c) 2018 Copyright Holder All Rights Reserved.
+#!/bin/sh -l
 
 echo "start checking"
 suggestion=$(ls *.md|xargs proselint)
