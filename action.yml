@@ -1,0 +1,8 @@
+name: "proselintCheck"
+description: "check every md file in the repository"
+outputs:
+  suggestion:
+    description: "the suggestion the proselint give"
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
