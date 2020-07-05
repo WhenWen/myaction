@@ -1,4 +1,4 @@
-#!/bin/sh -l
+#!/bin/sh 
 
 echo "start checking"
 #suggestion=$( ls *.md|xargs proselint )
